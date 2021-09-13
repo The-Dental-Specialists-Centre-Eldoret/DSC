@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "photoswipe": "github:dimsemenov/photoswipe#v5-beta",
+    "viewerjs": "^1.10.1"
+  }
+}

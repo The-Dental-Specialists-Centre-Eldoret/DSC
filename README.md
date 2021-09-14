@@ -1,1 +1,1 @@
-# The-Dental-Specialists-Centre-Eldoret
+# The Dental Specialists Centre Eldoret

@@ -1,0 +1,23 @@
+/*-- header top--*/
+
+ul.header-w3_pvt li span.fa {
+    margin-right: 5px;
+    color: #00bcd5;
+    font-size: 15px;
+}
+
+ul.header-w3_pvt li,ul.header-w3_pvt li p,ul.header-w3_pvt li a {
+    letter-spacing: 1px;
+    color: #eee;
+    text-transform: capitalize;
+    font-family: 'Dosis', sans-serif;
+}
+
+.header-top {
+    padding: 0.5em 0;
+}
+
+.header-top {
+    background: #333;
+}
+/*-- //header top --*/

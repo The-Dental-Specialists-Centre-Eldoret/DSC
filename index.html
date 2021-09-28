@@ -37,25 +37,10 @@
 }
 </style>
 
-<script type="text/javascript">
-    $(function () {
-        $('myDiv').floatingWhatsApp({
-            phone: '254713303596',
-            popupMessage: 'Welcome To jQueryScript.Net',
-            showPopup: true,
-            position: 'right',
-            //autoOpen: false,
-            //autoOpenTimer: 4000,
-            message: 'Your message to send!',
-            //headerColor: 'orange',
-            headerTitle: 'jQuery Floating WhatsApp',
-        });
-    });
-</script>
 
-<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="floating-wpp.min.js"></script>
-<link rel="stylesheet" href="floating-wpp.min.css">
+<link rel="stylesheet" href="floatbox/css/wafloatbox.min.css" />
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="floatbox/wafloatbox.js"></script>
 
     
     <link rel="stylesheet" href="./viewer/src/index.css" />
@@ -98,7 +83,20 @@
     
   </head>
 
-  <body>  
+  <body>
+
+  <div class="myk-wa">
+  <div class="myk-item" data-wanumber="628123456079" data-waname="Jonny" data-wadivision="Sales" data-waava="images/user.png"></div>
+  <div class="myk-item" data-wanumber="9212312347" data-waname="Rachel" data-wadivision="Technician" data-waava="images/user.png"></div>
+  <!-- more whatsapp accounts here -->
+</div>
+<script>
+    $(document).ready(function(){
+        $(".myk-wa").WAFloatBox();
+    });
+</script>
+
+
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	    	<a href="./"><img class="dsc-logo" src="images/dsc_logo.png" alt="dsceldoret" width="160" height="68"></a>
@@ -1030,8 +1028,6 @@
 
   <script src="./viewer/dist/img-previewer.min.js"></script>
 
-
-  <div id="myDiv"></div>
 
   </body>
 </html>

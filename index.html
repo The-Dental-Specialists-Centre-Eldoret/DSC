@@ -37,6 +37,22 @@
 }
 </style>
 
+<script type="text/javascript">
+    $(function () {
+        $('myDiv').floatingWhatsApp({
+            phone: '254713303596',
+            popupMessage: 'Welcome To jQueryScript.Net',
+            showPopup: true,
+            position: 'right',
+            //autoOpen: false,
+            //autoOpenTimer: 4000,
+            message: 'Your message to send!',
+            //headerColor: 'orange',
+            headerTitle: 'jQuery Floating WhatsApp',
+        });
+    });
+</script>
+
 <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="floating-wpp.min.js"></script>
 <link rel="stylesheet" href="floating-wpp.min.css">
@@ -1014,6 +1030,8 @@
 
   <script src="./viewer/dist/img-previewer.min.js"></script>
 
-    
+
+  <div id="myDiv"></div>
+
   </body>
 </html>

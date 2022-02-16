@@ -149,8 +149,9 @@ sup {
 a {
   color: #78d5ef;
   text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects; }
+  background-color: #00000000;
+  -webkit-text-decoration-skip: objects;
+  }
   a:hover {
     color: #34c0e7;
     text-decoration: underline; }

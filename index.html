@@ -1010,8 +1010,8 @@
             pre_filled_message: "Hello! The Dental Specialists' Centre.",
             greeting_message: "Hello, how may we help you? Just send us a message now to get assistance.",
         };
-        var proto = document.location.protocol, host = "githubusercontent.com", url = proto + "//raw." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/The-Dental-Specialists-Centre-Eldoret/dcs/main/init.js';
+        var proto = document.location.protocol, host = "thedentalspecialistscentre.co.ke", url = proto + "//cdn." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/init.js';
         s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
         var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })();
